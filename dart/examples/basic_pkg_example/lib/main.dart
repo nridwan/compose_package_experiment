@@ -16,7 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HelloWidget(name: 'Calculate = ${calculate()}'),
+      home: Scaffold(
+        body: HelloWidget(name: 'Calculate = ${calculate()}'),
+      ),
     );
   }
 }

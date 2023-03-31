@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Flutter Run -&gt; 'basic_pkg_example'" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="filePath" value="$PROJECT_DIR$/examples\\basic_pkg_example\lib\main.dart" />
+    <method v="2" />
+  </configuration>
+</component>

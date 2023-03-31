@@ -1,0 +1,10 @@
+name: building_blocks
+
+packages:
+  - examples/**
+  - packages/**
+  - pubspec.yaml
+command:
+  bootstrap:
+    usePubspecOverrides: true
+scripts:

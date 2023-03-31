@@ -1,0 +1,30 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+        if(new File(rootDir.absolutePath + "/publish.properties").exists()) {
+            Properties properties = new Properties()
+            properties.load(new File(rootDir.absolutePath + "/publish.properties").newDataInputStream())
+            maven {
+                url = uri(properties.getOrDefault("maven_url",""))
+                credentials {
+                    username = properties.getOrDefault("maven_username", "")
+                    password = properties.getOrDefault("maven_password", "")
+                }
+            }
+        }
+    }
+}
+rootProject.name = "Firebase Modules"
+include ':example'
+include ':fcm'
+include ':analytics'
+include ':java_pkg'

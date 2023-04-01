@@ -1,6 +1,6 @@
 {
   "name": "@nridwan/utils-js",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "sideEffects": false,
@@ -21,7 +21,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "registry": "https://npm.pkg.jetbrains.space/nridwan/p/main/npm"
+    "registry": "https://npm.pkg.jetbrains.space/nridwan/p/main/npm/"
   },
   "dependencies": {
     "hashids": "^2.2.10"

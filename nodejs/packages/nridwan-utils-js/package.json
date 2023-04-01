@@ -1,0 +1,29 @@
+{
+  "name": "@nridwan/utils-js",
+  "version": "0.0.0",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "sideEffects": false,
+  "license": "MIT",
+  "files": [
+    "src/**"
+  ],
+  "scripts": {
+    "build": "tsup src/index.js --format esm,cjs --dts",
+    "dev": "tsup src/index.js --format esm,cjs --watch --dts",
+    "lint": "eslint \"src/**/*.js*\"",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-acme": "workspace:*",
+    "tsup": "^5.10.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.jetbrains.space/nridwan/p/main/npm"
+  },
+  "dependencies": {
+    "hashids": "^2.2.10"
+  }
+}

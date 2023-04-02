@@ -2,8 +2,8 @@ lockfileVersion: '6.0'
 
 dependencies:
   '@nridwan/react-ui':
-    specifier: ^0.0.1
-    version: 0.0.1
+    specifier: ^0.0.2
+    version: 0.0.2
   react:
     specifier: ^18.2.0
     version: 18.2.0
@@ -494,21 +494,21 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@nridwan/react-ui@0.0.1:
-    resolution: {integrity: sha512-K4Bw5VYT5pXMCZUgt41mzOuFuGg2FYrWDgt+95+ofljxF3fnf4Q/Yf/8AAikeTiVJDgg8113w+/MAMMR3gHOew==}
+  /@nridwan/react-ui@0.0.2:
+    resolution: {integrity: sha512-B9jSTqgf16s8MOGdKJccxrEpT3OVY7UdyHekQ+NKZgR0VwvfWFJpAQm2kEt5HTdHOi2HdLwiq4c14NV0xoAfyQ==}
     dependencies:
-      '@nridwan/utils-js': 0.0.1
-      '@nridwan/utils-ts': 0.0.1
+      '@nridwan/utils-js': 0.0.2
+      '@nridwan/utils-ts': 0.0.2
     dev: false
 
-  /@nridwan/utils-js@0.0.1:
-    resolution: {integrity: sha512-3tW92czF92pl6U5syLFEbI3qx1YqzBiBqq4NH/vFtZWtWFaiQsKSBhIOZviqoOGaEm0K9NInHNZyMin4Kpru0Q==}
+  /@nridwan/utils-js@0.0.2:
+    resolution: {integrity: sha512-IR7z88ck34czlR2cYxaeV4RitEie4licVQgI/7W/O9aQX6f128toFP4YUaxSQZm70nbhVvHBvE3uw5/v8Gd+jg==}
     dependencies:
       hashids: 2.2.11
     dev: false
 
-  /@nridwan/utils-ts@0.0.1:
-    resolution: {integrity: sha512-fHocYFh2T6pegQ3vXVqsKN+VEymZpqHzihhlvgTriD72qrK4UCjniKsz09zkazA3EMXG/nr4fyghk4VMMgU5AQ==}
+  /@nridwan/utils-ts@0.0.2:
+    resolution: {integrity: sha512-MjyAYBdMtypSCb7rp3JGtReqt/dw+B2qP1+05Cdll7eX4Cz8w8DeD8YF21Umh4C5TwMiM+dUDPtt5RyI92oXhg==}
     dependencies:
       hashids: 2.2.11
     dev: false

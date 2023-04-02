@@ -1,6 +1,6 @@
 {
   "name": "@nridwan/utils-js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
   "sideEffects": false,
@@ -9,7 +9,7 @@
     "src/**"
   ],
   "scripts": {
-    "build": "tsup src/index.js --format esm,cjs --dts",
+    "build": "tsup src/index.js --format esm,cjs --minify --dts",
     "dev": "tsup src/index.js --format esm,cjs --watch --dts",
     "lint": "eslint \"src/**/*.js*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"

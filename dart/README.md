@@ -13,13 +13,13 @@ This example use monorepo concepts, where single workspace repository responsibl
 
 ### Get Package Repository Token
 for jetbrains space refer to these guide, for others please find out in each platform documentation:
-1. Click preferences in jetbrains space dashboard
+1. Click preferences in jetbrains space dashboard\
 ![Preference](assets/images/1_preference.png "Preference")
 2. Find personal token, then click "New Personal Token"
 3. Configure name and expiry depends on your personal preference
-4. make sure access limited, add context > project, select the project
+4. make sure access limited, add context > project, select the project\
 ![Add Context](assets/images/2_add_context.png "Add Context")
-5. add read/write package permission, if you are only giving permission for package consumer, prefer limit it to read permission, then press save
+5. add read/write package permission, if you are only giving permission for package consumer, prefer limit it to read permission, then press save\
 ![Permission](assets/images/3_permission.png "Permission")
 6. Press create, then a popup will show, copy the token and save it somewhere safe for later usage  
 
@@ -31,7 +31,7 @@ for jetbrains space refer to these guide, for others please find out in each pla
   - Windows: `%AppData%\dart`
   - MacOS: `/Users/username/Library/Application Support/dart/pub-tokens.json`
   - Linux: `$HOME/.config/dart/pub-tokens.json`
-4. Update the token for your url using [token you've generated for the repository earlier](#get-package-repository-token), just format it to readable format for easier editing, then save.
+4. Update the token for your url using [token you've generated for the repository earlier](#get-package-repository-token), just format it to readable format for easier editing, then save.\
 ![Token](assets/images/4_token.png "Token")
 
 ## Configuration

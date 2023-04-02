@@ -27,7 +27,7 @@ Note: in jetbrains space use the login account.
 
 ## Publishing
 - edit the package version by going to `{packagename}/build.gradle`, and change `version` properties inside `publications`
-- run `./gradlew {packagename}:publishReleasePublicationToCustomMavenRepository` or just find the command from android studio
+- run `./gradlew {packagename}:publishReleasePublicationToCustomMavenRepository` or just find the command from android studio\
 ![Gradle](assets/images/1_gradle_command.png "Gradle")
 
 ## Test the Publishing

@@ -1,6 +1,0 @@
-# melos_managed_dependency_overrides: dart_pkg,flutter_pkg
-dependency_overrides:
-  dart_pkg:
-    path: ..\\..\\packages\\dart_pkg
-  flutter_pkg:
-    path: ..\\..\\packages\\flutter_pkg

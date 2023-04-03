@@ -28,7 +28,7 @@ for jetbrains space refer to these guide, for others please find out in each pla
 `dart pub token add https://dart.pkg.jetbrains.space/nridwan/p/main/dartempty/`
 2. Insert ~~the token~~ any random text when prompted. Because jetbrains space token size is too big and somehow windows can't handle it, not sure for other OS though, just try if you want to.
 3. Open `pub-tokens.json` in your favorite text editor. it's location is in (since I'm windows user, for other OS if it's incorrect search it on google):
-  - Windows: `%AppData%\dart`
+  - Windows: `%AppData%\dart\pub-tokens.json`
   - MacOS: `/Users/username/Library/Application Support/dart/pub-tokens.json`
   - Linux: `$HOME/.config/dart/pub-tokens.json`
 4. Update the token for your url using [token you've generated for the repository earlier](#get-package-repository-token), just format it to readable format for easier editing, then save.\

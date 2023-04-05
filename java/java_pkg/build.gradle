@@ -7,6 +7,9 @@ plugins {
 java {
     sourceCompatibility = JavaVersion.VERSION_1_7
     targetCompatibility = JavaVersion.VERSION_1_7
+    //disable if you want to exclude source code
+    withJavadocJar()
+    withSourcesJar()
 }
 
 publishing {
@@ -16,7 +19,7 @@ publishing {
 
             groupId 'com.nridwan.firebase'
             artifactId 'java_pkg'
-            version '0.0.2'
+            version '0.0.3'
         }
     }
 

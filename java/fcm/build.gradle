@@ -30,6 +30,11 @@ android {
     }
 
     publishing {
+        singleVariant("release") {
+            withSourcesJar()
+            withJavadocJar()
+        }
+
         multipleVariants {
             withSourcesJar()
             withJavadocJar()
@@ -46,7 +51,7 @@ afterEvaluate {
 
                 groupId 'com.nridwan.firebase'
                 artifactId 'fcm'
-                version '0.0.1'
+                version '0.0.2'
             }
 
             debug(MavenPublication) {
